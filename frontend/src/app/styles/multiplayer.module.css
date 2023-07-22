@@ -1,0 +1,75 @@
+.page {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+}
+
+.create div {
+    font-size: 50px;
+    padding: 25px 30px;
+    color: white;
+    background-color: #030c5a;
+    border-radius: 10px;
+}
+
+.create p {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(32, 112, 12);
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 3px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.create p a {
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 27px;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+}
+
+.join div {
+    font-size: 50px;
+    padding: 25px 30px;
+    color: white;
+    background-color: #030c5a;
+    border-radius: 10px;
+}
+
+.join p {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(32, 112, 12);
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 3px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.join p a {
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 27px;
+}

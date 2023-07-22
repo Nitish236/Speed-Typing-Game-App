@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    background-color: #1b1731;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+li {
+    display: inline-block;
+    padding: 0 14px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #7682f3;
+}
+
+#home_link {
+    margin-left: 15px;
+    padding-bottom: 0;
+}
+
+main {
+    padding-top: 60px;
+    min-height: 35vw;
+    max-height: 50;
+    background-color: #e0e0e0;
+}
+
+footer {
+    background-color: #1b1731;
+    width: 100%;
+}
+
+.footer {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 50px 80px;
+}
+
+.social_media_icons {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.social_media_icons img {
+    margin-right: 15px;
+}
+
+.footer_2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.footer_2 p {
+    display: flex;
+    align-items: center;
+    color: #7682f3;
+    text-indent: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*     Home Page     */
+
+.home {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+.practice_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+}
+
+.practice_section div {
+    font-size: 50px;
+    padding: 25px 30px;
+    color: white;
+    background-color: #030c5a;
+    border-radius: 10px;
+}
+
+.practice_section p {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(32, 112, 12);
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 3px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.practice_section p a {
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 27px;
+}
+
+.multiplayer_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+}
+
+.multiplayer_section div {
+    font-size: 50px;
+    padding: 25px 30px;
+    color: white;
+    background-color: #030c5a;
+    border-radius: 10px;
+}
+
+.multiplayer_section p {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(32, 112, 12);
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 3px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.multiplayer_section p a {
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 27px;
+}

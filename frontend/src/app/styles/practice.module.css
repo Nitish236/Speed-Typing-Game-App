@@ -1,0 +1,218 @@
+.challenge {
+    padding: 70px 30px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.challenge h1 {
+    margin-bottom: 20px;
+}
+
+.userInputArea {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 38, 104);
+    border-radius: 5px;
+}
+
+.userInputArea label {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    width: 350px;
+}
+
+.userInputArea textarea {
+    padding: 10px;
+    font-size: 20px;
+    height: 130px;
+    background-color: rgb(229, 229, 245);
+    border-radius: 5px;
+}
+
+.userInputArea textarea:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.userInputArea p {
+    color: rgba(230, 13, 13, 0.808);
+    padding: 10px 0 0;
+    font-size: 20px;
+}
+
+.userInputArea select {
+    font-size: 17px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(229, 229, 245);
+}
+
+.userInputArea select:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.userInputArea input {
+    line-height: 20px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(229, 229, 245);
+}
+
+.userInputArea input:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.userInputArea .autoButton {
+    width: 150px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.userInputArea button {
+    width: 200px;
+    margin: 20px auto 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: green;
+}
+
+
+
+/*    String validation region        */
+
+.check_region {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 38, 104);
+    border-radius: 5px;
+}
+
+.check_region .timer {
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.check_region .check_Text {
+    padding: 10px;
+    height: max-content;
+    background-color: rgb(229, 229, 245);
+    border-radius: 5px;
+    color: #000;
+    font-size: 20px;
+}
+
+.check_region label {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    width: 400px;
+}
+
+.check_region label span {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.check_region textarea {
+    padding: 10px;
+    font-size: 20px;
+    height: 130px;
+    background-color: rgb(229, 229, 245);
+    border-radius: 5px;
+}
+
+.check_region textarea:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.check_region button {
+    width: 80px;
+    border-radius: 5px;
+    margin: 10px 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: green;
+    display: flex;
+    overflow: hidden;
+}
+
+.check_region button a {
+    text-decoration: none;
+    width: 100%;
+    padding: 4px;
+    color: #031152;
+}
+
+.check_region h5 {
+    margin: 15px auto 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 94);
+}
+
+
+/*       Game End region         */
+
+.end_region {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 38, 104);
+    border-radius: 5px;
+}
+
+.end_region h2 {
+    margin: 0 auto 10px;
+}
+
+.end_region label {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    width: 400px;
+}
+
+.end_region label span {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.end_region button {
+    width: 200px;
+    margin: 20px auto 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/*  CSS for highlighting */
+
+
+.correct {
+    color: rgb(16, 148, 16)
+}
+
+.incorrect {
+    color: rgb(255, 0, 0);
+}
