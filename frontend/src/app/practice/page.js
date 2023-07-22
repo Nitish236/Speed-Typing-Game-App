@@ -12,7 +12,6 @@ import Timer from "../components/Timer";
 
 // Axios
 import axios from "axios";
-import Link from "next/link";
 
 /* --------------------------------------------------------------------------------------------------------------------- */
 
