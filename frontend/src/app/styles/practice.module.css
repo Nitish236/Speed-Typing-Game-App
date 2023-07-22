@@ -139,26 +139,6 @@
     border: 2px solid black;
 }
 
-.check_region button {
-    width: 80px;
-    border-radius: 5px;
-    margin: 10px 10px 0;
-    font-size: 18px;
-    font-weight: 600;
-    overflow: hidden;
-    cursor: pointer;
-    background-color: green;
-    display: flex;
-    overflow: hidden;
-}
-
-.check_region button a {
-    text-decoration: none;
-    width: 100%;
-    padding: 4px;
-    color: #031152;
-}
-
 .check_region h5 {
     margin: 15px auto 0;
     padding: 10px;

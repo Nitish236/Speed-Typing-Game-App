@@ -167,7 +167,9 @@ export default function Practice() {
     const text = typedTextRef.current;
 
     const accuracyValue =
-      ((text.length - mistakes) / challengeText.length) * 100;
+      ((text.length - (text.length == 0 ? 0 : mistakes)) /
+        challengeText.length) *
+      100;
 
     const minutes = elapsedTime / 60;
     const CPMValue = Math.round(text.length / minutes);
@@ -175,6 +177,7 @@ export default function Practice() {
     const words = text.split(" "); // Calculate the words
     const WPMValue = Math.round(words.length / minutes);
 
+    console.log(minutes + " " + text.length + " " + words.length);
     // Using alert to see values
     // alert("min - " +minutes +" timerTime - " +timerDuration +" CPM - " +CPMValue +" Elpased - " +elapsedTime +" Mistakes - " +mistakes +" Words length - " + words.length );
 
@@ -301,10 +304,6 @@ export default function Practice() {
             <label>
               Typing Speed : <span>{CPM} CPM (Characters Per Minute)</span>
             </label>
-
-            <button>
-              <Link href="/practice">Back</Link>
-            </button>
 
             <h5>Game in Progress</h5>
           </div>
